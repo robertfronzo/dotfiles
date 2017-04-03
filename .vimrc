@@ -51,6 +51,7 @@ Plugin 'ctrlpvim/ctrlp.vim' "fuzzy file search
 Plugin 'ntpeters/vim-better-whitespace' "show whitespace/remove whitespace
 Plugin 'Raimondi/delimitMate' "auto-close quotes/brackets/paranthesis/etc
 Plugin 'airblade/vim-gitgutter' "show git diff symbols
+Plugin 'nvie/vim-togglemouse' "toggle mouse use
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
