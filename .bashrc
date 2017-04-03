@@ -3,14 +3,6 @@ PS1="\[\e[36;1m\]\h:\[\e[32;1m\]\w$ \[\e[0m\]"
 alias cl=clear
 alias ll="ls -lah"
 
-alias ga="git add"
-alias gc="git commit -v -S"
-alias gca="git add *; git commit -av -S"
-alias gp="git push"
-alias gpl="git pull --rebase"
-alias gs="git status"
-alias uncommitted='for x in *; do cd $x; echo $x; git status; cd ..; done'
-
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
@@ -25,7 +17,7 @@ alias ..="cd ..; ls -lh"
 alias ...="cd ../..; ls -lh"
 
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias localip="hostname -i" 
+alias localip="hostname -i"
 
 if [ -f /etc/bash_completion ]; then
       source /etc/bash_completion
