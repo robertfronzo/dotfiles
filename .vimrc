@@ -50,7 +50,6 @@ Plugin 'mxw/vim-jsx' "syntax highlighting for jsx
 Plugin 'ctrlpvim/ctrlp.vim' "fuzzy file search
 Plugin 'ntpeters/vim-better-whitespace' "show whitespace/remove whitespace
 Plugin 'Raimondi/delimitMate' "auto-close quotes/brackets/paranthesis/etc
-Plugin 'Valloric/YouCompleteMe' "auto-complete
 Plugin 'airblade/vim-gitgutter' "show git diff symbols
 
 " All of your Plugins must be added before the following line
