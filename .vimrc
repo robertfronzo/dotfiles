@@ -26,6 +26,11 @@ colorscheme basic-dark
 set hlsearch
 set incsearch
 
+" bring vim into 21st century
+set noswapfile
+set undodir=~/.vim/undo//
+set backupdir=~/.vim/backup//
+
 " ignore case unless upper case provided
 set ignorecase
 set smartcase
