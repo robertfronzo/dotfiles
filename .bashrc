@@ -1,12 +1,8 @@
 PS1="\[\e[36;1m\]\h:\[\e[32;1m\]\w$ \[\e[0m\]"
 
 alias cl=clear
+
 alias ll="ls -lah"
-
-alias rm='rm -i'
-alias mv='mv -i'
-alias cp='cp -i'
-
 alias ll='ls -lF --color=auto'
 alias la='ls -alF --color=auto'
 alias ls='ls -F'
